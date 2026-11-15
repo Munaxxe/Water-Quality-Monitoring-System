@@ -1,4 +1,4 @@
-// Blessed Water Quality Monitoring System
+// Water Quality Monitoring System
 #include <Wire.h>
 #include <mDNS.h>
 #include <WiFiClientSecure.h>
@@ -34,13 +34,13 @@ float phNA;
 float Value = 0;
 
 // Wifi Credentials
-const char* ssid = "_";              // Network SSID (name)
-const char* password = "munaxxe_";   // Network password
+const char* ssid = "";       // Network SSID (name)
+const char* password = "";   // Network password
 
 WiFiClient client;
 
-unsigned long myChannelNumber = 3033281;
-const char * myWriteAPIKey = "DMGGVNZ2ZHKL2V86";
+unsigned long myChannelNumber = ;     // Enter your Channel Number
+const char * myWriteAPIKey = "";      // Enter your API key
 
 // Timer variables
 unsigned long lastTime = 0;
